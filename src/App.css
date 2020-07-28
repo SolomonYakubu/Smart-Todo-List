@@ -1,0 +1,53 @@
+.App {
+	/* margin: 0px;
+	padding: 0px; */
+}
+
+.container {
+	padding: 0 1rem;
+}
+.btn {
+	/* position: relative;
+	left: 5px; */
+	/* display: inline-block; */
+	border: none;
+	background: #fff;
+	color: grey;
+	padding: 7px 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	box-shadow: 3px 3px 10px 3px grey;
+	outline: none;
+	border-radius: 15px;
+	font-size: 12px;
+	flex: 2;
+	text-align: center;
+	font-weight: bolder;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover {
+	color: rgba(146, 107, 146, 0.767);
+}
+.btn:active {
+	box-shadow: 1px 1px 10px 1px grey;
+}
+.todoInput {
+	flex: 9;
+	padding: 5px;
+	border: none;
+
+	border-radius: 5px;
+	outline: none;
+	box-shadow: inset 0px 0px 5px 0.5px rgb(201, 199, 199), 3px 3px 10px 3px grey;
+}
+.todoInput::placeholder {
+	color: grey;
+	font-size: 15px;
+}
+.delBtn:active {
+	box-shadow: 1px 1px 5px 1px grey;
+}
+.delBtn:hover {
+	font-size: 15px;
+}
